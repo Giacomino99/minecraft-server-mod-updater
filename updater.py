@@ -116,6 +116,5 @@ def download_file(url, file_name, folder):
 
 if __name__ == '__main__':
     args = get_args()
-    print(args)
     main(args.loader, args.version, args.folder, args.y)
 
